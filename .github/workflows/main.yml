@@ -36,3 +36,9 @@ jobs:
           pwd
           ls -al
           ./build-s3-dist.sh ssdzd-solutions serverless-bot-framework v1.7.0
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: global-and-regional-assets
+          path: |
+            deployment/**/*
