@@ -13,7 +13,7 @@
     "clean": "rm -rf node_modules && rm -fr test/__snapshots__"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.96.0",
+    "@aws-cdk/assert": "1.180.0",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
     "aws-cdk": "^1.96.0",
@@ -23,20 +23,20 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-lambda": "1.96.0",
-    "@aws-cdk/aws-s3": "1.96.0",
-    "@aws-cdk/aws-dynamodb": "1.96.0",
-    "@aws-cdk/aws-cognito": "1.96.0",
-    "@aws-cdk/aws-iam": "1.96.0",
-    "@aws-cdk/aws-s3-assets": "1.96.0",
-    "@aws-cdk/aws-apigateway": "1.96.0",
-    "@aws-solutions-constructs/aws-lambda-s3": "1.96.0",
-    "@aws-solutions-constructs/core": "1.96.0",
-    "@aws-solutions-constructs/aws-cognito-apigateway-lambda": "1.96.0",
-    "@aws-solutions-constructs/aws-lambda-dynamodb": "1.96.0",
-    "@aws-solutions-constructs/aws-s3-lambda": "1.96.0",
-    "@aws-solutions-constructs/aws-cloudfront-s3": "1.96.0",
-    "@aws-cdk/core": "1.96.0",
+    "@aws-cdk/aws-lambda": "1.180.0",
+    "@aws-cdk/aws-s3": "1.180.0",
+    "@aws-cdk/aws-dynamodb": "1.180.0",
+    "@aws-cdk/aws-cognito": "1.180.0",
+    "@aws-cdk/aws-iam": "1.180.0",
+    "@aws-cdk/aws-s3-assets": "1.173.0",
+    "@aws-cdk/aws-apigateway": "1.180.0",
+    "@aws-solutions-constructs/aws-lambda-s3": "1.173.0",
+    "@aws-solutions-constructs/core": "1.173.0",
+    "@aws-solutions-constructs/aws-cognito-apigateway-lambda": "1.173.0",
+    "@aws-solutions-constructs/aws-lambda-dynamodb": "1.173.0",
+    "@aws-solutions-constructs/aws-s3-lambda": "1.173.0",
+    "@aws-solutions-constructs/aws-cloudfront-s3": "1.173.0",
+    "@aws-cdk/core": "1.180.0",
     "source-map-support": "^0.5.16"
   }
 }
